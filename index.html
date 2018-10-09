@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Account Balance</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+<header>
+    <h1>Account Balance</h1>
+    <h2>Description: </h2><input type="text" placeholder="Description" id="descriptionInput">
+    <h2>Amount:</h2><input type="text"  placeholder="Amount" id="amountInput" required pattern="[0-9]{10}">
+    <br/>
+    <br/>
+    <select id="transaction">
+        <option value="input">Income</option>
+        <option value="expenses">Expenses</option>
+      </select> 
+    <button id ="btnAdd">Add</button>
+</header>
+<hr>
+<div class="wrapper" style="background-color: #609"></div>
+<div class = "wrapper2" style="background-color:#609"></div>
+<div class = "wrapper3"></div>
+    
+</body>
+<script src="myscript.js"> </script>
+</html>
